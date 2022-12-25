@@ -7,7 +7,7 @@
 
 import Foundation
 
-// Enum created to handle the endpoints of the URLs
+// Enum created to handle the endpoints of the URLs.
 @frozen enum RMEndPoint: String {
     case character
     case location
