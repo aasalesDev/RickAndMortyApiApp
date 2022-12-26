@@ -78,16 +78,40 @@
 		6C6C571029562D2A0009F7B4 /* RickAndMortyApp */ = {
 			isa = PBXGroup;
 			children = (
-				6CFA64F42956845800A437C6 /* APIClient */,
 				6CFA64F32956812900A437C6 /* Resources */,
-				6CFA64F22956811E00A437C6 /* Managers */,
-				6CFA64F12956811400A437C6 /* ViewModels */,
-				6CFA64F02956810D00A437C6 /* Views */,
+				6CE515DE29592861009A610F /* Managers */,
+				6CE515DD2959283E009A610F /* Service */,
+				6CE515DF2959287C009A610F /* Views */,
 				6CFA64EF2956810700A437C6 /* Models */,
+				6CFA64F12956811400A437C6 /* ViewModels */,
 				6CFA64EE295680FA00A437C6 /* Controllers */,
 				6C6C572229562D2B0009F7B4 /* Info.plist */,
 			);
 			path = RickAndMortyApp;
+			sourceTree = "<group>";
+		};
+		6CE515DD2959283E009A610F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6C058FF22958005300C59EBE /* RMService.swift */,
+				6C058FF42958006200C59EBE /* RMRequest.swift */,
+				6C058FF62958010500C59EBE /* RMEndPoint.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6CE515DE29592861009A610F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6CE515DF2959287C009A610F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6CFA64EE295680FA00A437C6 /* Controllers */ = {
@@ -109,26 +133,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		6CFA64F02956810D00A437C6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		6CFA64F12956811400A437C6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				6CFA6504295689C700A437C6 /* RMViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		6CFA64F22956811E00A437C6 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
 			sourceTree = "<group>";
 		};
 		6CFA64F32956812900A437C6 /* Resources */ = {
@@ -140,16 +150,6 @@
 				6C6C571F29562D2B0009F7B4 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		6CFA64F42956845800A437C6 /* APIClient */ = {
-			isa = PBXGroup;
-			children = (
-				6C058FF22958005300C59EBE /* RMService.swift */,
-				6C058FF42958006200C59EBE /* RMRequest.swift */,
-				6C058FF62958010500C59EBE /* RMEndPoint.swift */,
-			);
-			name = APIClient;
 			sourceTree = "<group>";
 		};
 		6CFA64FB295685E300A437C6 /* Core */ = {
